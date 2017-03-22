@@ -10,11 +10,11 @@ Thats it.
 
 As usual in my projects (shooting with canons to sparrows...) I used a Teensy.
 Wiring is rather simple:
-
+```
     SW               --------------- 
 ----/ ------ GND ----|             |
 |                    |    Teensy   |------- USB to PC 
 -------------12 -----|             |
                      ---------------
-
+```
 Have fun
