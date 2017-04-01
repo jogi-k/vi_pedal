@@ -1,7 +1,8 @@
 # vi_pedal
 Input / Command - Mode Selection via Foot-Pedal to Teensy
 
-Very simple idea, stolen from someone ( I cant remember where and whom )
+Very simple idea, stolen from someone ( I couldn't remember where but today I stumbled across the blog-post once more with the nice german title:
+[Warum vim so geil ist](https://www.tobscore.com/warum-vim-so-geil-ist) )
 You have a foot-pedal and can send keystrokes with this foot-pedal to your PC (via USB-HID)
 In this case it is a vi-pedal:
 - When pressing the pedal a "i" is sent once and you are in insert-mode
