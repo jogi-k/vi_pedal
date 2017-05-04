@@ -29,7 +29,7 @@ So the wiring now looks like this:
 |          |                 |
 R2         R1       +--------+-------+
 |          |        |                |
-|          +----12--+     TEENSY     |
+|          +----12--+     TEENSY     |------- USB to PC
 D1 --->    |        |                |
 |  --->    T1       +--------+-------+
 |          |                 |
