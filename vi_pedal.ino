@@ -30,7 +30,7 @@ void _delay_ms( int wait )
 
 void setup()
 {
-  pinMode( PEDAL,  INPUT_PULLUP );
+  pinMode( PEDAL,  INPUT );
   Keyboard.begin();
   if( digitalRead ( PEDAL ) )
   {
@@ -68,7 +68,7 @@ void loop()
         DebounceCount--;
         if( DebounceCount == 0 )
         {
-           usb_keyboard_press( KEY_I , 0 );
+           usb_keyboard_press( KEY_ESC , 0 );
            delay(50);
            enState = Low;
         }
@@ -91,7 +91,7 @@ void loop()
         DebounceCount--;
         if( DebounceCount == 0 )
         {
-           usb_keyboard_press( KEY_ESC , 0 );
+           usb_keyboard_press( KEY_I , 0 );
            delay(50);
            enState = High;
         }
