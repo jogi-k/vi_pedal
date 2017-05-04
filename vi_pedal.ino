@@ -1,4 +1,4 @@
-/* Input for vi via pedal. Rising Edge => i ; Falling edge => ESC */
+/* Input for vi via pedal. Rising Edge => ESC ; Falling edge => i */
 
 #define PEDAL 12
 
@@ -55,7 +55,7 @@ void loop()
       if ( currentPin == 0 )
       {
         DebounceCount = 5;
-        enState = DebounceLow;      
+        enState = DebounceLow;
       }
       break;
    case DebounceLow:
@@ -78,7 +78,7 @@ void loop()
       if ( currentPin == 1 )
       {
         DebounceCount = 5;
-        enState = DebounceHigh;      
+        enState = DebounceHigh;
       }
       break;
    case DebounceHigh:
