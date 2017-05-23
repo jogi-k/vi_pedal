@@ -36,11 +36,16 @@ D1 --->    |        |                |
 +----------+------GND--------+
 
 ```
+A little bit better to understand is the following wiring:
+(here comes the fritzing wiring...)
+
 
 So now the polarity is inverted and the input-pin does not need a pullup.
 The IR-Diode, Fototransistor and the two resistors are used as they have been in the original pedal,
 which already was a USB-Pedal. But unfortunately it was not able to produce different keystrokes on push and and on release.
 So the Teensy with the "intelligence" is needed.
 
+Please see also on my blog here:
+http://jogiblog.kuenstner.de/2017/05/das-vi-pedal/
 
 Have fun
