@@ -37,7 +37,7 @@ D1 --->    |        |                |
 
 ```
 A little bit better to understand is the following wiring:
-(here comes the fritzing wiring...)
+![IR_Lichtschranke_Schaltplan.png](IR_Lichtschranke_Schaltplan.png)
 
 
 So now the polarity is inverted and the input-pin does not need a pullup.
